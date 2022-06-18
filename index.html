@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com crossorigin">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon-32x32-1.png">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="text">
+            <h1>Learn to code by watching others</h1>
+            <h3>See how experienced developers solve problems in real-time.
+                Watching scripted tutorials is great, but understanding how developers think is invaluable.
+
+            </h3>
+
+        </div>
+
+        <div class="full">
+            <button><strong>Try it free 7 days</strong> then $20/mo thereafter</button>
+            <form>
+                <label for="fname">
+                    <input type="text" placeholder="First Name" 
+                    onfocus="this.placeholder=''"
+                    onblur="this.placeholder='First Name'">
+                    <h6>First name cannot be empty</h6>
+                </label>
+
+                <label for="lname">
+                    <input type="text" placeholder="Last Name" onfocus="this.placeholder=''"
+                    onblur="this.placeholder='Last Name'">
+                    <h6>Last name cannot be empty</h6>
+                </label>
+
+                <label for="email">
+                    <input type="email" placeholder="Email Address"  
+                    onfocus="this.placeholder='email@example.com'"
+                    onblur="this.placeholder='Email Address'">
+                    <h6>Looks like this is not an email</h6>
+
+                </label>
+
+                <label for="password">
+                    <input type="password" placeholder="Password" onfocus="this.placeholder=''"
+                    onblur="this.placeholder='Password'">
+                    <h6>Password cannot be empty</h6>
+                </label>
+
+                <button class="claim">CLAIM YOUR FREE TRIAL</button>
+
+                <h5>By clicking the button, you are agreeing to our <em>Terms and Services</em> </h5>
+            </form>
+        </div>
+
+        
+    </div>
+</body>
+</html>
